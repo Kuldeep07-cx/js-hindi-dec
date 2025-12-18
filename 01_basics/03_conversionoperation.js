@@ -16,5 +16,5 @@ console.log(typeof(stringnumber))
 let IsLoggedIn =1
 let booleanIsloggedIn = Boolean(IsLoggedIn)
 console.log(booleanIsloggedIn) 
-console.log(typeof(booleanIsloggedIn))
+
 
