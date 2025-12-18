@@ -1,0 +1,21 @@
+{
+  "name": "js-hindi-dec",
+  "version": "1.0.0",
+  "description": "A code repo for  javascript series at chai aur code channel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kuldeep07-cx/js-hindi-dec.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Kuldeep07-cx/js-hindi-dec/issues"
+  },
+  "homepage": "https://github.com/Kuldeep07-cx/js-hindi-dec#readme"
+}
