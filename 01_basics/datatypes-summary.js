@@ -16,3 +16,16 @@ let myObj = {
     age : 23,
 }
 
+let userOne ={
+    name: "kuldeep",
+    email: "kuldeep7908@gmail.com",
+
+}
+ let userTwo = userOne;
+
+ userTwo.email = "kamlesh7908@gmail.com"
+ console.log(userOne.email);
+ console.log(userTwo.email);
+ 
+
+
