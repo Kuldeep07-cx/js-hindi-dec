@@ -17,4 +17,9 @@ let IsLoggedIn =1
 let booleanIsloggedIn = Boolean(IsLoggedIn)
 console.log(booleanIsloggedIn) 
 
+let value =7
+let negValue = -value
+console.log(negValue)
+
+console.log(2+2)
 
