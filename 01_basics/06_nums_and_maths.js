@@ -14,6 +14,8 @@ console.log(numStr); // Output: "12345"
 let preciseNum = 123.456789;
 console.log(preciseNum.toFixed(2)); // Output: "123.46" (Rounded to 2 decimal places)
 
+console.log(preciseNum.toPrecision(4)); // toPrecision used for precise value
+
 
 //Using the Math Library
 let abs =Math.abs(-7)
@@ -27,13 +29,15 @@ let randomNum = Math.random(); // Random number between 0 and 1
 console.log(randomNum);
 
 
-
 let random = ((Math.random()*10) +1);
 console.log(random)
 
+
 // Random number in a specific range (e.g., 10 to 20)
+
+
 let min = 10, max = 20;
-let randomInRange = Math.floor(Math.random() * (max - min + 1)) + min;
+let randomInRange = Math.floor(Math.random() * (max - min + 1)) + min; // impotant
 console.log(randomInRange);
 
 
