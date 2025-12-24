@@ -21,7 +21,8 @@ let userOne ={
     email: "kuldeep7908@gmail.com",
 
 }
- let userTwo = userOne;
+ let userTwo = userOne; // copied by reference because userOne is an object
+                        // both variables refer to the same object in memory
 
  userTwo.email = "kamlesh7908@gmail.com"
  console.log(userOne.email);
