@@ -87,3 +87,32 @@ const masti = [
     
 ]
 console.log(masti[2].email);
+
+
+
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "kuldeep"
+}
+
+//course.courseInstructor
+
+const {courseInstructor:instructor} = course
+
+//console.log(courseInstructor);
+console.log(instructor);
+
+
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
