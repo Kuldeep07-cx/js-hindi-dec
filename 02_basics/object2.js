@@ -34,5 +34,56 @@ const obj4 = Object.assign( {} ,obj1,obj2)
 
 
 const obj3 ={...obj1,...obj2}
-console.log(obj3);
+//console.log(obj3);
 
+
+const sum ={
+    id: 45,
+    email: "sunny@gmail.com",
+    kemo : { 
+
+        name : "kamlesh rawat",
+        age : 28,
+        
+    }
+
+}
+//console.log(sum.kemo.name);
+
+
+const obj6 = {...sum,...regularuser}
+//console.log(obj6);
+
+
+
+// finding keys and values using method and entries  give both in the form of an array
+
+ console.log(Object.keys(kulfi))
+ console.log(Object.values(kulfi))
+ console.log(Object.entries(kulfi));
+console.log(kulfi.hasOwnProperty('name')); // for checking name is the part of kuldeep object or not
+
+
+
+// Making objects inside an array 
+
+const masti = [
+
+    {
+        id: 34,
+        email:"gg@gmail.com",
+
+    },
+    {
+        id: 56,
+        email:"g0@gmail.com",
+
+    },
+    {
+        id: 94,
+        email:"gk@gmail.com",
+
+    },
+    
+]
+console.log(masti[2].email);
