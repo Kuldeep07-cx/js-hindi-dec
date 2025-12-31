@@ -43,7 +43,7 @@ chai()
 
 //Implicit 
 //const addtwo = (num1, num2) => num1 + num2;
-const addtwo = (num1, num2) => ({name:"kuldeep"})
+const addtwo = (num1, num2) => ({name:"kuldeep"}) // Implicit return of an object
 
 console.log(addtwo(2, 3));
 
